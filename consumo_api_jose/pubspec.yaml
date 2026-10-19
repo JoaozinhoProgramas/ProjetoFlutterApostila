@@ -1,0 +1,22 @@
+name: consumo_api_jose # Nome do projeto/pacote Flutter
+description: Front-end didático em Flutter para a API Gestão Comercial. # Breve descrição do objetivo da aplicação
+publish_to: "none" # Evita que o projeto seja publicado acidentalmente no pub.dev (repositório público)
+version: 1.0.0+1 # Versão do app: "1.0.0" (versão visível ao usuário) e "+1" (número interno de build)
+
+environment: # Configurações de ambiente necessárias para executar o projeto
+  sdk: ">=3.3.0 <4.0.0" # Intervalo de versões do SDK da linguagem Dart suportadas (mínimo 3.3.0 e menor que 4.0.0)
+
+dependencies: # Pacotes e bibliotecas necessários para o funcionamento do app em produção
+  flutter: # Dependência do framework Flutter
+    sdk: flutter # Especifica que o pacote vem do próprio SDK do Flutter instalado na máquina
+  http: ^1.2.2 # Pacote para realizar requisições HTTP (GET, POST, PUT, DELETE) e consumir APIs REST
+  intl: ^0.19.0 # Pacote para internacionalização e formatação de datas, números e moedas
+  cupertino_icons: ^1.0.8 # Biblioteca de ícones no estilo visual do iOS (Cupertino)
+
+dev_dependencies: # Dependências utilizadas apenas durante o desenvolvimento e testes (não vão para a versão final)
+  flutter_test: # Framework para criação e execução de testes automatizados
+    sdk: flutter # Especifica que a ferramenta de testes vem do próprio SDK do Flutter
+  flutter_lints: ^5.0.0 # Conjunto de regras de boas práticas e análise estática de código
+
+flutter: # Configurações específicas para o ecossistema do Flutter
+  uses-material-design: true # Habilita os recursos visuais e ícones do Material Design (Google)
