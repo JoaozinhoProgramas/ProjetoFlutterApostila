@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'clientes_page.dart';
 
-//import 'produtos_page.dart';
-//import 'servicos_page.dart';
-//import 'vendas_page.dart';
+import 'produtos_page.dart';
+import 'services_page.dart';
+import 'vendas_page.dart';
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
   @override
@@ -14,9 +14,9 @@ class _HomePageState extends State<HomePage> {
   int _indice = 0;
   final _paginas = const [
     ClientesPage(),
-    //ProdutosPage(),
-    //ServicosPage(),
-    //VendasPage()
+    ProdutosPage(),
+    ServicosPage(),
+    VendasPage()
   ];
   final _titulos = const ['Clientes', 'Produtos', 'Serviços', 'Vendas'];
   final _destinos = const [

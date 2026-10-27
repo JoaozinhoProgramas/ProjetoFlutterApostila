@@ -6,6 +6,6 @@ class ApiConfig {
  // flutter run -d chrome --dart-define=API_URL=https://.../api 
  static const String baseUrl = String.fromEnvironment( 
  'API_URL', 
- defaultValue: 'http://localhost:8080/api', 
+ defaultValue: 'https://gestao-comercial-api.onrender.com/api', 
  ); 
 } 

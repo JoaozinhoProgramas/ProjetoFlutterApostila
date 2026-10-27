@@ -51,6 +51,7 @@ class Venda {
   );
 }
 
+
 class ClienteResumo {
   final int id;
   final String nome;
